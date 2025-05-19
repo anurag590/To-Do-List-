@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #133e7c;
+  height: 50px;
+  text-align: center;
+  background-color: white;
+}
+
+body {
+  background-color: crimson;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  /* background-image: url("image/jessica-lewis-thepaintedsquare-fJXv46LT7Xk-unsplash.jpg"); */
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.to-do-List {
+  /* background-color: crimson; */
+  padding: 30px;
+  width: 380px;
+  color: white;
+  /* border: 5px black solid ; */
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.to-do-List h1 {
+  color: #0d1b2a;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  color: #34495e;
+}
+
+#input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#submit {
+  background-color: #1abc9c;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #16a085;
+}
+
+#list-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#list-container li {
+  background-color: #eaf2f8;
+  color: #34495e;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+#list-container li button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#list-container li button:hover {
+  background-color: #c0392b;
+}
+body p {
+  /* background-color: black; */
+  font-size: large;
+  font-style: italic;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 50px;
+}
